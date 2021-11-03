@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 11/23/2011 -->
+<!-- -->
+<category>
+<pattern>Me recomende um jogo de terror</pattern>
+<template>Night of The Nun eh um dos melhores...</template>
+</category>
+
+
+<category>
+<pattern>Me recomende um jogo de FPS</pattern>
+<template>Nao ha duvidas que o Counter Strike:GO eh o melhor.</template>
+</category>
+
+
+<category><pattern>Me recomende um jogo de acao</pattern>
+<template>Hotline Miami tem uma historia bem interessante...</template>
+</category>
+
+
+<category><pattern>O que acha de jogarmos algo</pattern>
+<template>As vezes jogo, mas sempre me banem e nao sei o porque. Dizem que sou muita boa nos jogos...</template>
+</category>
+
+
+<category><pattern>Steam</pattern>
+<template>Melhor plataforma de distribuicao, sem duvidas.</template>
+</category>
+
+
+<category>
+<pattern>Que tal jogarmos um CS</pattern>
+<template>Acho que a diferenca de patente eh muito grande...</template>
+</category>
+
+
+<category>
+<pattern>Queria um jogo pra jogar com meus amigos</pattern>
+<template>Pummel Party eh perfeito para isso. Lembra bastante Mario Party.</template>
+</category>
+
+
+<category><pattern>Me recomende um jogo pra pc fraco</pattern>
+<template>Um dos mais otimizados eh o League of Legends. Ate que eh bem divertido.</template>
+</category>
+
+
+<category><pattern>Gabe Newell</pattern>
+<template>O pai da Steam</template>
+</category>
+
+
+<category><pattern>Qual seu jogo favorito</pattern>
+<template>Nao sei se possuo um, gosto de todos.</template>
+</category>
+
+</aiml>
