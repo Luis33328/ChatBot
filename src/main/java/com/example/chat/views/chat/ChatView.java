@@ -34,15 +34,15 @@ public class ChatView extends VerticalLayout {
     private final UI ui;
     private final MessageList messageList = new MessageList();
     private final TextField message = new TextField();
-    private final Chat chatSession;
+    private final ChatPuc chatSession;
     private final ScheduledExecutorService executorService;
 
     public ChatView(Bot alice, ScheduledExecutorService executorService) {
         this.executorService = executorService;
         ui = UI.getCurrent();
-        chatSession = new Chat(alice);
+        chatSession = new ChatPuc(alice);
 
-        message.setPlaceholder("Enter a message...");
+        message.setPlaceholder("Enter a message or type 'menu' for Theatre options...");
         message.setSizeFull();
 
         Button send = new Button(VaadinIcon.ENTER.create(), event -> sendMessage());
